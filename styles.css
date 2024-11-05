@@ -22,10 +22,7 @@ li {
 	background: gray;
 }
 
-li:first-child {
-	font-size: 22px
-}
-
+li:first-child,
 li:last-child {
 	font-size: 22px
 }
