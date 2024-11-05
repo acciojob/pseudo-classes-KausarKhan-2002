@@ -22,6 +22,14 @@ li {
 	background: gray;
 }
 
+li:first-child {
+	font-size: 22px
+}
+
+li:last-child {
+	font-size: 22px
+}
+
 li:nth-child(odd) {
 	background: white;
 }
