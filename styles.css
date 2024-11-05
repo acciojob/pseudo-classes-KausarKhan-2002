@@ -2,30 +2,30 @@
 :root {
 	background: rgb(135, 206, 235);
 }
-div p:first-child {
+p:first-child {
 	background: black;
 	color: white;
 }
 
-div p:nth-child(2) {
+p:nth-child(2) {
 	color: inherit;
 }
 
-div p:last-child {
+p:last-child {
 	color: red;
 }
 
-ul li {
+li {
 	background: gray;
 	padding: 10px;
 	width: 50%;
 	background: gray;
 }
 
-ul li:nth-child(odd) {
+li:nth-child(odd) {
 	background: white;
 }
 
-ul li:nth-last-child(3) {
+li:nth-last-child(3) {
 	background: pink;
 }
